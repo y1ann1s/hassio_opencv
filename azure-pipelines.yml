@@ -13,7 +13,7 @@ resources:
     - repository: azure
       type: github
       name: 'home-assistant/ci-azure'
-      endpoint: 'home-assistant'
+      endpoint: 'test'
 
 jobs:
 - template: templates/azp-job-wheels.yaml@azure
